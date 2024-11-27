@@ -85,6 +85,8 @@ h3 {
 header {
     background-color: #ffffff;
     padding: 10px;
+    display: flex;
+    flex-direction: row;
 }
 
 nav {
@@ -174,3 +176,9 @@ footer {
     text-align: left;
 }
 .product-card h3{margin: 10px 0px;}
+.flex_1 {
+    flex: 1;
+}
+.text_center {
+    text-align: center;
+}
