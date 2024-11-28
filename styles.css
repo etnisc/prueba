@@ -182,3 +182,65 @@ footer {
 .text_center {
     text-align: center;
 }
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: #fff;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 2px solid #eaeaea;
+}
+header h1 {
+    margin: 0;
+    color: #d5006d;
+}
+.product {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+.product img {
+    max-width: 300px;
+    width: 100%;
+    height: auto;
+}
+.price {
+    font-size: 24px;
+    color: #333;
+    margin: 10px 0;
+}
+.controls {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+.controls button {
+    margin: 0 5px;
+    padding: 10px;
+    background-color: #d5006d;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.controls input {
+    width: 40px;
+    text-align: center;
+}
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #fff;
+    border-top: 2px solid #eaeaea;
+}
+.contact {
+    margin-top: 20px;
+    font-size: 18px;
+}
+</style>
+</head>
+<body>
