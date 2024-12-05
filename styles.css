@@ -5,6 +5,9 @@
     box-sizing: border-box;
 }
 
+.barra {
+    margin-top: 10px;
+}
 .cajabuscar {
     float: none;
     width: 150px;
@@ -168,17 +171,21 @@ footer {
 }
 .precio1{
     text-align: left;
+    flex: 1;
 }
 .precio2{
     text-align: left;
+    flex: 1;
 }
 .precio3{
     text-align: left;
+    flex: 1;
 }
 .precio4{
     text-align: left;
+    flex: 1;
 }
-.product-card h3{margin: 10px 0px;}
+.product-card h3{margin: 19px 0px;}
 .flex_1 {
     flex: 1;
 }
@@ -256,10 +263,37 @@ footer {
     
    
 }
-#s{
+#s{ 
     background-color: #c4c3c3;
     border-radius: 10px;
     
 }
 
+.footer{
+background-color: #4e4c4c88;
+color: #FFF;
+text-align: center;
+padding: 20px 0;
+}
+
+.fotter a{
+    color: #961055;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.fotter a:hover{
+    text-decoration: underline;
+}
+
+.social.icons img{
+    width: 25px;
+    margin: 0 10px;
+}
+
+.ptc{
+    color: #961055;
+    text-decoration: none;
+    margin: 0 10px;
+}
 
