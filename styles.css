@@ -124,7 +124,7 @@ nav {
 
 .product-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     grid-gap: 40px;
     padding: 20px;
 }
@@ -138,8 +138,8 @@ nav {
 }
 
 .product-card img {
-    max-width: 100%;
-    height: auto;
+    max-width: 125px;
+    /* height: auto; */
 }
 
 .actions {
@@ -295,5 +295,12 @@ padding: 20px 0;
     color: #961055;
     text-decoration: none;
     margin: 0 10px;
+}
+.iconos2 {
+    padding: 15px;
+}
+
+.product-001{
+    display: grid;
 }
 
