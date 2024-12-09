@@ -6,7 +6,7 @@
 }
 
 .barra {
-    margin-top: 10px;
+    margin-top: 20px;
 }
 .cajabuscar {
     float: none;
@@ -120,6 +120,7 @@ nav {
 /* Estilos de los productos destacados */
 .featured-products {
     padding: 20px;
+    margin-top: 50px;
 }
 
 .product-grid {
